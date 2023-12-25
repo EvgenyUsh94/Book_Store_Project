@@ -13,8 +13,14 @@ components:
 * user-book main page - Where all the books offered to the user will appear
 * user-favorites-books card
 
+Framework:
+Vite
+
+JS framework:
+React
+
 style:
-use of traylo(?) with or instead of CSS
+TailwindCSS with Vanilla CSS
 
 
 
