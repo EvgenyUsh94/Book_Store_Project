@@ -1,5 +1,8 @@
 import mysql from "mysql2"
 
+require("dotenv").config()
+
+
 const sqlpassword = process.env.SQLPASSWORD;
 
 const connection = mysql.createConnection({
@@ -7,7 +10,7 @@ const connection = mysql.createConnection({
     port: 3306,
     user: "root",
     password: sqlpassword,
-    database: "library"
+    database: "bookstoretest"
 })
 
 connection.connect((err) => {
